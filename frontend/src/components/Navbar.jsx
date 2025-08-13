@@ -1,5 +1,4 @@
 "use client";
-
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
@@ -127,7 +126,6 @@ export default function Navbar() {
               </div>
             </div>
           </div>
-
           <div className="hidden md:flex items-center space-x-2">
             <button
               onClick={() => setIsDarkMode(!isDarkMode)}
